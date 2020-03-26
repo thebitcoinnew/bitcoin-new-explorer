@@ -1,0 +1,69 @@
+:root {
+  --btcnew-blue: #2c3e50;
+}
+
+.text-monospace {
+  font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace !important;
+}
+
+.btn-g-primary {
+  background-color: var(--btcnew-blue);
+  border-color: var(--btcnew-blue);
+  color: #fff;
+}
+
+.btn-g-primary:hover {
+  color: #e2e2e2;
+}
+
+.nav-pills .nav-link.btcnew {
+  color: var(--btcnew-blue);
+}
+
+.nav-pills .nav-link.btcnew.active {
+  background-color: var(--btcnew-blue);
+  color: #fff;
+}
+
+.pagination .page-item .page-link {
+  color: var(--btcnew-blue);
+  background-color: white;
+}
+
+.pagination .page-item.active .page-link {
+  color: white;
+  background-color: var(--btcnew-blue);
+  border-color: var(--btcnew-blue);
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+#App .ContentContainer {
+  overflow-y: auto;
+}
+
+#App .Header {
+  background-color: var(--btcnew-blue);
+  color: #fff;
+}
+
+.Transaction-enter {
+  opacity: 0.01;
+}
+
+.Transaction-enter.Transaction-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.Transaction-leave {
+  opacity: 1;
+}
+
+.Transaction-leave.Transaction-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

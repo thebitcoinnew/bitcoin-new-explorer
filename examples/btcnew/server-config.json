@@ -1,0 +1,30 @@
+{
+  "nodeName": "explorer.bitev.be",
+  "account": "",
+  "clientUrl": "https://explorer.bitev.be",
+  "raiblocksDir": "/home/user/BitcoinNew",
+  "nodeHost": "http://10.0.1.152:7076",
+  "redis": "redis://127.0.0.1:6379",
+  "redisNamespace": "development",
+  "serverPort": 3001,
+  "coinMarketCapApiKey": "",
+  "monitorCurrencyName": "btcnew",
+  "knownMonitors": [
+    "http://207.148.8.82/api.php"
+  ],
+  "blacklistedPeers": [],
+  "officialRepresentatives": [
+    "btcnew_1btcnewyaisgrmxzwwdy1w75tb1m9rxtjt6x1hykx9ubaoe4q1yyg1dh69jb",
+    "btcnew_1knz1bzonzzm6swcbzn5dtr1ejfcmahyqygfnu6pah7wzpn7zrquowdjuron",
+    "btcnew_3yg7g4jp8yuxq7ffoasn4t5b8z7ftke8bif1c1ps9pnxmjdxuo8cn73piqhe",
+    "btcnew_1qsd46bau1r41k6rpcd95khwsnxiyofu86u7gxah3m544czhx1ffsf6n31fo",
+    "btcnew_339mgzi7jm56t8z6sfmh3tsks1iam3j9pa51sg9sowqs8j9z4r9bjarzjbwe",
+    "btcnew_3dnw3nt31joqxrpq3ie3u4d4ryowbsnf3zpz4qt8kmpbstkjx3sjj59wsxq6",
+    "btcnew_3s9pozsoafo6qe7bgdtueth1jsd6nqo1z438zwmzykx6634urudqrpkz94za",
+    "btcnew_3hzyjuwuewkiqghs1pzhqn4598gxnantq488hta756tpfjwu5eqoq3qcjuu1",
+    "btcnew_1dmyk98g8s67g6pes7keuus7j8zpy93pzxun4g71o5wdi3p5pdnrhmzkitz3",
+    "btcnew_3zxopnc9jfj9uguui4dehoeysc797nkjg7xd9djtykciohoixejtqoqf8cu7",
+    "btcnew_35pjmicedocz47qyz9ct4p7pe45p5aazphaepuugjpyrhemnqsxj8iqdchfb",
+    "btcnew_3cupmhfs4quecmzbignh9h75a7erj9eh6kd39iczmxdf4mu1utai7jjinj5b"
+  ]
+}

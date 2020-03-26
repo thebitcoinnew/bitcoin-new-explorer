@@ -1,0 +1,38 @@
+{
+  "server": "http://localhost:3001",
+  "websocketServer": "ws.explorer.bitev.be",
+  "donationAddress": "btcnew_3aqgqz8mrrxg3gm91kqeu83czhyqwts3697hhubs6wm7a3rfxqnwu1aaqb6f",
+  "currency": {
+    "name": "Bitcoin New",
+    "shortName": "BTCNEW",
+    "precision": 30,
+    "maxSupply": 133248289,
+    "prefixes": ["btcnew"],
+    "qrPrefix": "btcnew"
+  },
+  "features": {
+    "nodeStatus": true,
+    "searchSuggestions": false,
+    "supportedLanguages": {
+      "en": "English",
+      "cs": "Čeština",
+      "da": "Dansk",
+      "de": "Deutsch",
+      "es": "Español",
+      "fr": "Français",
+      "it": "Italiano",
+      "hr": "Hrvatski",
+      "hu": "Magyar",
+      "id": "Bahasa Indonesia",
+      "nl": "Nederlands",
+      "pt-BR": "Português Brasileiro",
+      "el": "Ελληνικά",
+      "ro": "Română",
+      "ru": "Русский",
+      "sv": "Svenska",
+      "zh-CN": "汉语",
+      "zh-TW": "漢語"
+    }
+  },
+  "serviceMonitors": []
+}
