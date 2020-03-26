@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Bitcoin New Crawler</ShortName>
+    <LongName>Bitcoin New Crawler</LongName>
+    <Description>Search for accounts and blocks on the Bitcoin New network</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+    <Developer>Itachi Uchiha</Developer>
+    <Contact>meltingice8917@gmail.com</Contact>
+    <Tags>cryptocurrency bitcoinnew btcnew account block blockchain node</Tags>
+    <Attribution>Search the Bitcoin New currency network, https://explorer.bitev.be/</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <Query role="example" searchTerms="xrb_1x7biz69cem95oo7gxkrw6kzhfywq4x5dupw4z1bdzkb74dk9kpxwzjbdhhs"/>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://explorer.bitev.be/favicon.ico</Image>
+    <Url type="text/html" template="https://explorer.bitev.be/explorer/auto/{searchTerms}"/>
+</OpenSearchDescription>
