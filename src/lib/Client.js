@@ -11,8 +11,8 @@ class Client {
   }
 
   async ticker() {
-    const resp = await this.fetch("v2/ticker");
-    return await resp.json();
+    //const resp = await this.fetch("v2/ticker");
+    //return await resp.json();
   }
 
   async account(account) {
