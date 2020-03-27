@@ -25,6 +25,7 @@ class TickerProvider extends React.Component {
 
   async fetchTicker() {
     const ticker = await apiClient.ticker();
+    if (!ticker) { return; }
     this.setState({
       priceUSD: ticker.USD,
       priceBTC: ticker.BTC
